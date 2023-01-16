@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+}
+header,div,h2,p{
+    text-align: right;  
+}
+header {  
+    height: 100vh;
+    background-image: url(../images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-contain{
+    text-align: right;
+    padding-top: 216px;
+    padding-right: 230px;
+    margin-bottom: 130px;
+}
+.header-tittle{
+    right: 228px;
+    left: 845px;
+    top: 216px;
+    color: white;
+}
+.header-description{
+    text-align: right;
+    padding: left 700px;
+    margin-bottom: 130px; 
+    color: blanchedalmond; 
+}
+.header-button{
+
+}
+#description-control {
+    padding-left: 700px;
+}
