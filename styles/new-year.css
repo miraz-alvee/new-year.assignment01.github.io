@@ -13,7 +13,7 @@ header {
 .header-contain{
     text-align: right;
     padding-top: 216px;
-    padding-right: 230px;
+    padding-right: 200px;
     margin-bottom: 130px;
 }
 .header-tittle{
@@ -27,10 +27,132 @@ header {
     padding: left 700px;
     margin-bottom: 130px; 
     color: blanchedalmond; 
+    margin-top: 16px;
 }
 .header-button{
-
+    width: 90px;
+    height: 50px;
+    /* left: 210px; */
+    margin-left: 600px;
+    color: black;
 }
 #description-control {
     padding-left: 700px;
+}
+.pervious-year-failures {
+
+    margin-top: 130px;
+    margin-bottom: 130px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.failure-person {
+    width: 40%;
+    height: 100%;
+}
+
+.failure-reasons {
+    width: 30%;
+    text-align: left;
+}
+
+.upset-person-img {
+    height: 500px;
+    width: 500px;
+
+}
+
+.failure-reason-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
+.failure-reason-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+.failure-reason-lists {
+    text-align: start;
+    list-style: none;
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.li-icon-check-mark {
+    color: rgb(13, 224, 13);
+
+}
+
+.failure-list {
+    margin-bottom: 8px;
+}
+.my-plans {
+    margin-top: 130px;
+}
+
+.about-plans {
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.future-skill-container{
+    margin-top: 90px;
+    margin-left: 200px;
+    display: flex;
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-description{
+    color: #757575;
+}
+.future-skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+.be-positive{
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.be-positive-container {
+    /* height: auto; */
+    width: 1140px;
+    height: 300px;
+    left: 230px;
+    top: 222px;
+    background-repeat: no-repeat;
+    padding: 20px;
+    border-radius: 8px;
+    background-image: url(../images/watch.png), linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    /* background-blend-mode: overlay; */
+}
+.be-positive-title{
+    color: black;
+    text-align: left;
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+.button-call{
+    left: -60px;
 }
